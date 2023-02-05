@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0%;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.d-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.work .right .box {
+    width :48%;
+    margin-bottom:1rem ;
+}
+.work .right .box i{
+    padding: 0.7rem;
+    background-color: skyblue;
+    color: darkgreen;
+    border-radius: 0.5rem;
+    margin-top: 2rem;
+}
+
+.work .left button{
+    padding: 0.5rem;
+    border: 0rem;
+    border-radius: 0.4rem;
+    background-color: rgb(2, 41, 2);
+    color:white;
+    width: 7rem;
+    height: 2.5rem;
+    margin-top: 6rem;
+}
+.work .right .box h3,p{
+    margin-top: 1rem;
+}
